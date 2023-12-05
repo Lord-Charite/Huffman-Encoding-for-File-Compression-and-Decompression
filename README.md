@@ -1,5 +1,5 @@
-# Objected-Oriented-Programming-cs10DartmouthCollege
-Huffman Encoding for File Compression and Decompression
+# Huffman Encoding for File Compression and Decompression
+
 
 Introduction
 
