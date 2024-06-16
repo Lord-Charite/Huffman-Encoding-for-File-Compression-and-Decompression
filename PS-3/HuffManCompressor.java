@@ -31,8 +31,6 @@ public class HuffManCompressor {
         this.huffmanPriorityQueue = new PriorityQueue<BinaryTree<CodeTreeElement>>(nodeComparator);
     }
 
-
-
     /**
      * Gets the binary codes for each character
      * Use recursion until the leaf is found
@@ -145,7 +143,6 @@ public class HuffManCompressor {
             }
         }
     }
-
     /**
      * Helper method for finding characters in the Huffman tree based on binary codes.
      *
@@ -257,7 +254,6 @@ public class HuffManCompressor {
 
             BufferedBitReader bitIn = new BufferedBitReader(compressedFile);
             BufferedWriter outputFile = new BufferedWriter(new FileWriter(decompressedFile));
-
 
             data.decompress(outputFile, bitIn);
 
